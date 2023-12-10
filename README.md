@@ -1,0 +1,1 @@
+ typeidea_django_blog
