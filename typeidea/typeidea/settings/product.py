@@ -7,9 +7,9 @@ ALLOWED_HOSTS = ['8.130.46.229', '127.0.0.1']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'typeidea_db_new',
+        'NAME': 'typeidea_django',
         'USER': 'root',
-        'PASSWORD': 'mysecret',
+        'PASSWORD': '',
         'HOST': '127.0.0.1',
         'PORT': 3306,
         'CONN_MAX_AGE': 5 * 60,
