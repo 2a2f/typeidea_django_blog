@@ -2,7 +2,7 @@ from .base import * # NOQA
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['8.130.46.229', '127.0.0.1']
+ALLOWED_HOSTS = ['*', '8.130.46.229', '127.0.0.1']
 
 DATABASES = {
     'default': {
