@@ -1,1 +1,1 @@
- typeidea_django_blog
+用django写的一个博客系统
