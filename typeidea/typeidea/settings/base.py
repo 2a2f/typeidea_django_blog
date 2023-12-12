@@ -146,7 +146,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 CKEDITOR_UPLOAD_PATH = 'article_images'
-DEFAULT_FILE_STORAGE = 'typeidea.storage.WatermarkStorage'
-
-if __name__ == '__main__':
-    print(os.path.join(BASE_DIR))
+# DEFAULT_FILE_STORAGE = 'typeidea.storage.WatermarkStorage'
