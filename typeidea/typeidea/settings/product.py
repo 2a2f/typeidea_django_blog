@@ -2,7 +2,7 @@ from .base import * # NOQA
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['106.14.64.181', '127.0.0.1']
+ALLOWED_HOSTS = ['skyproject.cn', 'www.skyproject.cn', '106.14.64.181', '127.0.0.1']
 
 DATABASES = {
     'default': {
